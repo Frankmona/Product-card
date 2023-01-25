@@ -8,7 +8,7 @@ body{
 
 .main{
     max-width: 75vh;
-    min-height: 60vh;
+    max-height: 60vh;
     background-color: white;
     margin:auto;
     margin-top: 110px;
