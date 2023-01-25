@@ -1,0 +1,95 @@
+/* 
+ @import url(https://fonts.google.com/specimen/Montserrat); */
+ @import url(https://fonts.google.com/specimen/Fraunces);
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main{
+    max-width: 75vh;
+    min-height: 60vh;
+    background-color: white;
+    margin:auto;
+    margin-top: 110px;
+    border-radius: 10px;
+    display: flex; 
+    overflow: none;
+    
+
+}
+
+img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 5px;      
+ }
+.section__text{
+    margin-left: 18px;
+    margin-right:35px; 
+    margin-top: 13px; 
+
+}
+
+.sub__text{
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+}
+
+ .sup{
+   font-size: 10px;
+ }
+
+.perfume{
+    letter-spacing: 3px;
+    font-size: 9px;
+    color: hsl(228, 12%, 48%);
+    font-family:Arial, Helvetica, sans-serif
+    
+    
+}
+span{
+    /* font-family:'Times New Roman', Times, serif; */
+    font-size: 24px;
+    font-weight: bold;
+    color:hsl(158, 36%, 37%)
+    
+}
+
+
+
+button {
+    
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    min-width: 30vh;
+    height: 4px;
+    color: white;
+    /* padding: 15px 32px; */
+    padding-bottom: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+
+  }
+  .button:active {
+    background-color: hsl(158, 16%, 29%);
+  }
+  
+   
+  .content{
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  .footer{
+    text-align: right;
+    text-decoration: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
